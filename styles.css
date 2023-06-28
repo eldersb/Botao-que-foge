@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:darkred ;
+}
+
+.namorar {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.bt1 {
+  background-color: white  ;
+  color: black;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.bt1:hover{
+  background-color: black; /* Green */
+  color: white;
+}
+
+#bt2{
+  background-color: white  ;
+  color: black;
+  border-radius: 8px;
+  width: 10%;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+  top: 80%;
+}
+
+@media screen and (max-width: 480px){
+    .bt1 {
+      width: 15%;
+    }
+    #bt2{
+      width: 15%;
+      top: 30%;
+    }
+}
