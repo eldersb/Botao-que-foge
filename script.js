@@ -1,4 +1,4 @@
-function aceitar(){
+function apertar(){
     window.alert("Desistiu?");
     }
 
