@@ -44,12 +44,12 @@ footer{
   top: 80%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .bt1 {
       width: 15%;
     }
     #bt2{
       width: 15%;
-      top: 30%;
+      top: 35%;
     }
 }
